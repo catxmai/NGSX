@@ -4,7 +4,7 @@ NGSX related
 Install NLTK <br />
 `conda install -c anaconda nltk`
 
-Install genism <br />
+Install gensim <br />
 `conda install -c anaconda gensim`
 
 Install Wordcloud<br />
