@@ -63,6 +63,36 @@ def clean_text(command):
     df["cleaned text"] = texts
     print(df["cleaned text"])
 
+def space_square_bracket():
+    global df
+
+    texts = []
+    for index, col in df.iterrows():
+        cleaned_texts = []
+        p = re.compile("\[(\s*?.*?\s*?)\]")
+        matches = p.findall(col["text"])
+        for match in matches:
+            cleaned = re.sub("\s", "", match)
+            cleaned_texts.append(cleaned)
+
+        text = col["text"]
+        for i in range(len(matches)):
+            cleaned = re.sub(matches[i], cleaned_texts[i], text)
+            text = cleaned
+
+        p = re.compile("\s(\[.*?\])\s|\s(\[.*?\])$|^\s?(\[.*?\])\s?")
+        temp = p.sub(r"\1", " " + cleaned)
+
+        # find [] with form a[]b and add a space
+        p = re.compile("(\S)(\[.*?\])(\S)")
+        temp_2 = p.sub(r"\1\2" + " " + r"\3", temp)
+
+        # find 2 spaces or leading and trailing space one more time
+        p = re.compile("\s(\[[a-zA-Z-0-9]*?\])\s|^\s?(\[[a-zA-Z-0-9]*?\])\s|\s(\[[a-zA-Z-0-9]*?\])\s?$")
+        temp_3 = p.sub(" " + r"\1", temp_2)
+
+        texts.append(temp_3)
+    df["cleaned text"] = texts
 
 root = tkinter.Tk()
 root.title("NGSX Clean Transcript")
@@ -82,10 +112,11 @@ root.geometry('%dx%d+%d+%d' % (w, h, x, y))
 tkinter.Button(root, text='Browse .csv or Excel File', command=import_csv).grid(sticky="w",row=1, column=0)
 file_name = tkinter.StringVar()
 tkinter.Label(root, textvariable=file_name,wraplength=400, justify=LEFT, anchor="w").grid(row=0, column=3)
-tkinter.Button(root, text='Clean all square brackets', command=lambda:clean_text("square_bracket"), anchor="w").grid(sticky="w",row=2, column=0)
+tkinter.Button(root, text='Clean all square brackets and content inside', command=lambda:clean_text("square_bracket"), anchor="w").grid(sticky="w",row=2, column=0)
 tkinter.Button(root, text='Clean all standalone um ah uh', command=lambda:clean_text("um"), anchor="w").grid(sticky="w",row=2, column=1)
-tkinter.Button(root, text='Save as', command=write_excel,anchor="w").grid(sticky="w",row=3, column=0)
-tkinter.Button(root, text='Close', command=root.destroy,anchor="w").grid(sticky="w",row=4, column=0)
+tkinter.Button(root, text='Clean all spaces inside brackets and surrounding space', command=space_square_bracket, anchor="w").grid(sticky="w",row=3, column=0)
+tkinter.Button(root, text='Save as', command=write_excel,anchor="w").grid(sticky="w",row=4, column=0)
+tkinter.Button(root, text='Close', command=root.destroy,anchor="w").grid(sticky="w",row=5, column=0)
 
 bottom = tkinter.Frame(root)
 bottom_label = tkinter.Label(bottom, text="Feature requests to CMai@clarku.edu")

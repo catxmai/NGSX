@@ -20,29 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="080b97df-b517-48ca-812e-4c497339006e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/regex_cleaning.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/first_gui-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/PKG-00.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/PYZ-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/warn-first_gui.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/warn-first_gui.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/xref-first_gui.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/xref-first_gui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_gui.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/first_gui.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_gui.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/first_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_gui.spec" beforeDir="false" afterPath="$PROJECT_DIR$/first_gui.spec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/result.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,25 +106,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587395929946" />
-    <state width="1515" height="129" key="GridCell.Tab.0.bottom" timestamp="1587432126591">
+    <state width="1515" height="129" key="GridCell.Tab.0.bottom" timestamp="1587489926628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="129" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587432126591" />
-    <state width="1515" height="129" key="GridCell.Tab.0.center" timestamp="1587432126591">
+    <state width="1515" height="129" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587489926628" />
+    <state width="1515" height="129" key="GridCell.Tab.0.center" timestamp="1587489926628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="129" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587432126591" />
-    <state width="1515" height="129" key="GridCell.Tab.0.left" timestamp="1587432126591">
+    <state width="1515" height="129" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587489926628" />
+    <state width="1515" height="129" key="GridCell.Tab.0.left" timestamp="1587489926628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="129" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587432126591" />
-    <state width="1515" height="129" key="GridCell.Tab.0.right" timestamp="1587432126591">
+    <state width="1515" height="129" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587489926628" />
+    <state width="1515" height="129" key="GridCell.Tab.0.right" timestamp="1587489926628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="129" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587432126591" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1587396259055">
+    <state width="1515" height="129" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587489926628" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1587490112687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587396259055" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587490112687" />
   </component>
 </project>
