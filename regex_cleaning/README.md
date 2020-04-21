@@ -1,5 +1,7 @@
 # Regex cleaning
-(In progress) Create a GUI to parse from csv transcription and clean up transcript (um ah space in bracket etc.)
+(Barebone done) Create a GUI to parse from csv transcription and clean up transcript (um ah space in bracket etc.)
+
+To run, download `GUI.zip` and extract all. After that, go to `dist\first_gui\` and run  `first_gui.exe`
 
 Reminder to Cat:
 
