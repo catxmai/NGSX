@@ -1,32 +1,68 @@
 ('C:\\Users\\Cat '
  'Mai\\Documents\\Work\\NGSX\\Coding\\NGSX\\regex_cleaning\\build\\first_gui\\PYZ-00.pyz',
- [('os',
+ [('win32com',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\os.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\__init__.py',
    'PYMODULE'),
-  ('subprocess',
+  ('win32com.server.util',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\subprocess.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\server\\util.py',
    'PYMODULE'),
-  ('selectors',
+  ('win32com.server.dispatcher',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\selectors.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\server\\dispatcher.py',
    'PYMODULE'),
-  ('contextlib',
+  ('win32traceutil',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\contextlib.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32\\lib\\win32traceutil.py',
    'PYMODULE'),
-  ('threading',
+  ('win32com.util',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\threading.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\util.py',
    'PYMODULE'),
-  ('_threading_local',
+  ('win32con',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\_threading_local.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32\\lib\\win32con.py',
    'PYMODULE'),
-  ('signal',
+  ('win32com.server.exception',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\signal.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\server\\exception.py',
+   'PYMODULE'),
+  ('winerror',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32\\lib\\winerror.py',
+   'PYMODULE'),
+  ('win32com.server.policy',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\server\\policy.py',
+   'PYMODULE'),
+  ('win32com.client',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\client\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.makepy',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\client\\makepy.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\getopt.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\gettext.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\struct.py',
+   'PYMODULE'),
+  ('pywin.dialogs.status',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\status.py',
    'PYMODULE'),
   ('_strptime',
    'c:\\users\\cat '
@@ -48,21 +84,49 @@
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\textwrap.py',
    'PYMODULE'),
-  ('copy',
+  ('threading',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\copy.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\threading.py',
    'PYMODULE'),
-  ('gettext',
+  ('_threading_local',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\gettext.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\_threading_local.py',
    'PYMODULE'),
-  ('struct',
+  ('contextlib',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\struct.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\contextlib.py',
    'PYMODULE'),
-  ('shutil',
+  ('pywin.mfc.thread',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\shutil.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\thread.py',
+   'PYMODULE'),
+  ('pywin.mfc.object',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\object.py',
+   'PYMODULE'),
+  ('pywin.mfc.dialog',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\dialog.py',
+   'PYMODULE'),
+  ('pywin.mfc.window',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\window.py',
+   'PYMODULE'),
+  ('pywin.mfc',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\__init__.py',
+   'PYMODULE'),
+  ('pywin',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\Pythonwin\\pywin\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.gencache',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\client\\gencache.py',
    'PYMODULE'),
   ('zipfile',
    'c:\\users\\cat '
@@ -71,6 +135,18 @@
   ('py_compile',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('ntpath',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\string.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\genericpath.py',
    'PYMODULE'),
   ('importlib.machinery',
    'c:\\users\\cat '
@@ -112,6 +188,10 @@
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\urllib\\__init__.py',
    'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\fnmatch.py',
+   'PYMODULE'),
   ('email',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\__init__.py',
@@ -136,6 +216,10 @@
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\socket.py',
    'PYMODULE'),
+  ('selectors',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\selectors.py',
+   'PYMODULE'),
   ('random',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\random.py',
@@ -147,6 +231,118 @@
   ('logging',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\bisect.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\base64.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\optparse.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\token.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\_compression.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\bz2.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\stat.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\importlib\\util.py',
    'PYMODULE'),
   ('pickle',
    'c:\\users\\cat '
@@ -167,6 +363,10 @@
   ('unittest.signals',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\signal.py',
    'PYMODULE'),
   ('unittest.main',
    'c:\\users\\cat '
@@ -204,6 +404,10 @@
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\log.py',
    'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\subprocess.py',
+   'PYMODULE'),
   ('asyncio.windows_events',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\windows_events.py',
@@ -212,10 +416,6 @@
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\windows_utils.py',
    'PYMODULE'),
-  ('tempfile',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\tempfile.py',
-   'PYMODULE'),
   ('asyncio.selector_events',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\selector_events.py',
@@ -223,14 +423,6 @@
   ('ssl',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\ssl.py',
-   'PYMODULE'),
-  ('base64',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\base64.py',
-   'PYMODULE'),
-  ('getopt',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\getopt.py',
    'PYMODULE'),
   ('asyncio.proactor_events',
    'c:\\users\\cat '
@@ -480,6 +672,14 @@
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\__init__.py',
    'PYMODULE'),
+  ('distutils.archive_util',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\archive_util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\tarfile.py',
+   'PYMODULE'),
   ('tracemalloc',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\tracemalloc.py',
@@ -528,50 +728,6 @@
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\http\\client.py',
    'PYMODULE'),
-  ('email.message',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\message.py',
-   'PYMODULE'),
-  ('email.policy',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\policy.py',
-   'PYMODULE'),
-  ('email.contentmanager',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\contentmanager.py',
-   'PYMODULE'),
-  ('email.quoprimime',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\quoprimime.py',
-   'PYMODULE'),
-  ('email.headerregistry',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\headerregistry.py',
-   'PYMODULE'),
-  ('email.iterators',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\iterators.py',
-   'PYMODULE'),
-  ('email.generator',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\generator.py',
-   'PYMODULE'),
-  ('email._encoded_words',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\_encoded_words.py',
-   'PYMODULE'),
-  ('quopri',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\quopri.py',
-   'PYMODULE'),
-  ('uu',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\uu.py',
-   'PYMODULE'),
-  ('optparse',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\optparse.py',
-   'PYMODULE'),
   ('ctypes.util',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\ctypes\\util.py',
@@ -611,10 +767,6 @@
   ('gzip',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\gzip.py',
-   'PYMODULE'),
-  ('_compression',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\_compression.py',
    'PYMODULE'),
   ('test.support.testresult',
    'c:\\users\\cat '
@@ -704,29 +856,13 @@
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32\\lib\\win32evtlogutil.py',
    'PYMODULE'),
-  ('winerror',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32\\lib\\winerror.py',
-   'PYMODULE'),
-  ('win32con',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32\\lib\\win32con.py',
-   'PYMODULE'),
   ('smtplib',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\smtplib.py',
    'PYMODULE'),
-  ('email.base64mime',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\base64mime.py',
-   'PYMODULE'),
   ('hmac',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\hmac.py',
-   'PYMODULE'),
-  ('glob',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\glob.py',
    'PYMODULE'),
   ('test',
    'c:\\users\\cat '
@@ -940,10 +1076,6 @@
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\ast.py',
    'PYMODULE'),
-  ('token',
-   'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\token.py',
-   'PYMODULE'),
   ('difflib',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\difflib.py',
@@ -956,89 +1088,177 @@
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\_compat_pickle.py',
    'PYMODULE'),
-  ('string',
+  ('glob',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\string.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\glob.py',
    'PYMODULE'),
-  ('bisect',
+  ('win32com.client.selecttlb',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\bisect.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\client\\selecttlb.py',
    'PYMODULE'),
-  ('email.feedparser',
+  ('pywin.dialogs.list',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\feedparser.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\list.py',
    'PYMODULE'),
-  ('email._header_value_parser',
+  ('commctrl',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\_header_value_parser.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32\\lib\\commctrl.py',
    'PYMODULE'),
-  ('email.header',
+  ('win32com.client.genpy',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\header.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\client\\genpy.py',
    'PYMODULE'),
-  ('email.charset',
+  ('win32com.client.CLSIDToClass',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\charset.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\client\\CLSIDToClass.py',
    'PYMODULE'),
-  ('email.encoders',
+  ('win32com.client.dynamic',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\encoders.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\client\\dynamic.py',
    'PYMODULE'),
-  ('email.errors',
+  ('win32com.client.build',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\errors.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\client\\build.py',
    'PYMODULE'),
-  ('csv',
+  ('pywintypes',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\csv.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32\\lib\\pywintypes.py',
    'PYMODULE'),
-  ('tokenize',
+  ('win32com.server',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\tokenize.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\server\\__init__.py',
    'PYMODULE'),
-  ('importlib.util',
+  ('win32com.universal',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\importlib\\util.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\universal.py',
    'PYMODULE'),
-  ('tarfile',
+  ('win32com.client.util',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\tarfile.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32com\\client\\util.py',
    'PYMODULE'),
-  ('lzma',
+  ('imp',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\lzma.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\imp.py',
    'PYMODULE'),
-  ('bz2',
+  ('pythoncom',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\bz2.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pythoncom.py',
    'PYMODULE'),
-  ('fnmatch',
+  ('tempfile',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\fnmatch.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\tempfile.py',
    'PYMODULE'),
-  ('ntpath',
+  ('shutil',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\ntpath.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\shutil.py',
    'PYMODULE'),
-  ('genericpath',
+  ('pkg_resources',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\genericpath.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
-  ('posixpath',
+  ('pkg_resources._vendor.packaging.requirements',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\posixpath.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
-  ('stat',
+  ('pkg_resources._vendor.six',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\stat.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\uuid.py',
+   'PYMODULE'),
+  ('netbios',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32\\lib\\netbios.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('win32com.shell.shellcon',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32comext\\shell\\shellcon.py',
+   'PYMODULE'),
+  ('win32com.shell',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\win32comext\\shell\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources.py31compat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\py31compat.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\_py_abc.py',
    'PYMODULE'),
   ('stringprep',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\stringprep.py',
    'PYMODULE'),
-  ('_py_abc',
+  ('os',
    'c:\\users\\cat '
-   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\_py_abc.py',
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\os.py',
+   'PYMODULE'),
+  ('tkinter.filedialog',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\tkinter\\filedialog.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.dialog',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\tkinter\\dialog.py',
+   'PYMODULE'),
+  ('csv',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\csv.py',
    'PYMODULE'),
   ('tkinter',
    'c:\\users\\cat '
@@ -1047,4 +1267,1888 @@
   ('tkinter.constants',
    'c:\\users\\cat '
    'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('pandas',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.tslibs',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('numpy',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.distutils.cpuinfo',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\cpuinfo.py',
+   'PYMODULE'),
+  ('numpy.distutils.compat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\compat.py',
+   'PYMODULE'),
+  ('numpy.distutils',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.fcompiler',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\fcompiler\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.config_compiler',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\config_compiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.command',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.egg_info',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('distutils.extension',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\extension.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command.install_scripts',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('setuptools.command.easy_install',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\easy_install.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\config.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools.py33compat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\py33compat.py',
+   'PYMODULE'),
+  ('html.parser',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\html\\parser.py',
+   'PYMODULE'),
+  ('_markupbase',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\_markupbase.py',
+   'PYMODULE'),
+  ('distutils.version',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\version.py',
+   'PYMODULE'),
+  ('distutils.cmd',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\cmd.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.pep425tags',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\pep425tags.py',
+   'PYMODULE'),
+  ('setuptools.glibc',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\glibc.py',
+   'PYMODULE'),
+  ('setuptools.package_index',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\package_index.py',
+   'PYMODULE'),
+  ('setuptools.ssl_support',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\ssl_support.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.py27compat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\py27compat.py',
+   'PYMODULE'),
+  ('setuptools.sandbox',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\sandbox.py',
+   'PYMODULE'),
+  ('site',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyInstaller\\fake-modules\\site.py',
+   'PYMODULE'),
+  ('distutils.command.build_scripts',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('distutils.command',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('distutils.command.install',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('distutils.command.install_scripts',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.bdist',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.py36compat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\py36compat.py',
+   'PYMODULE'),
+  ('distutils.command.sdist',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._compat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.six',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\six.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('distutils.msvc9compiler',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\msvc9compiler.py',
+   'PYMODULE'),
+  ('distutils.command.build_ext',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('distutils._msvccompiler',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('json',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('setuptools.namespaces',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\namespaces.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools._deprecation_warning',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_deprecation_warning.py',
+   'PYMODULE'),
+  ('setuptools.extern',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\extern\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.develop',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\develop.py',
+   'PYMODULE'),
+  ('setuptools.command.develop',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\develop.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_clib',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\install_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.bdist_rpm',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('distutils.command.bdist_rpm',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_rpm',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('setuptools.command.install',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\install.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_headers',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('distutils.command.install_headers',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_data',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('distutils.command.install_data',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.sdist',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_scripts',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_clib',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('distutils.command.build_clib',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_ext',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('numpy.distutils.system_info',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\system_info.py',
+   'PYMODULE'),
+  ('numpy.f2py',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py.diagnose',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\diagnose.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py_testing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\f2py_testing.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py2e',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\f2py2e.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_src',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\build_src.py',
+   'PYMODULE'),
+  ('numpy.distutils.conv_template',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\conv_template.py',
+   'PYMODULE'),
+  ('numpy.distutils.from_template',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\from_template.py',
+   'PYMODULE'),
+  ('numpy.f2py.auxfuncs',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.f90mod_rules',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.rules',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.use_rules',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\use_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.common_rules',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\common_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.func2subr',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\func2subr.py',
+   'PYMODULE'),
+  ('numpy.f2py.crackfortran',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\crackfortran.py',
+   'PYMODULE'),
+  ('fileinput',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\fileinput.py',
+   'PYMODULE'),
+  ('numpy.f2py.cb_rules',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\cb_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.capi_maps',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\capi_maps.py',
+   'PYMODULE'),
+  ('numpy.f2py.cfuncs',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\cfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.__version__',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\__version__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_py',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('distutils.command.build_py',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\build.py',
+   'PYMODULE'),
+  ('distutils.command.build',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\build.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.config',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\config.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.autodist',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\autodist.py',
+   'PYMODULE'),
+  ('numpy.distutils.mingw32ccompiler',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\mingw32ccompiler.py',
+   'PYMODULE'),
+  ('distutils.msvccompiler',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\msvccompiler.py',
+   'PYMODULE'),
+  ('distutils.unixccompiler',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('distutils.cygwinccompiler',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\cygwinccompiler.py',
+   'PYMODULE'),
+  ('distutils.command.config',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\config.py',
+   'PYMODULE'),
+  ('distutils.core',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\core.py',
+   'PYMODULE'),
+  ('distutils.config',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\config.py',
+   'PYMODULE'),
+  ('cgi',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\cgi.py',
+   'PYMODULE'),
+  ('distutils.dist',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\dist.py',
+   'PYMODULE'),
+  ('distutils.versionpredicate',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('numpy.distutils.core',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\core.py',
+   'PYMODULE'),
+  ('numpy.distutils.numpy_distribution',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\numpy_distribution.py',
+   'PYMODULE'),
+  ('numpy.distutils.extension',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\extension.py',
+   'PYMODULE'),
+  ('numpy.distutils.fcompiler.environment',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\fcompiler\\environment.py',
+   'PYMODULE'),
+  ('numpy.distutils.exec_command',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\exec_command.py',
+   'PYMODULE'),
+  ('numpy.distutils.misc_util',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\misc_util.py',
+   'PYMODULE'),
+  ('curses',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\curses\\__init__.py',
+   'PYMODULE'),
+  ('curses.has_key',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\curses\\has_key.py',
+   'PYMODULE'),
+  ('dummy_threading',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\dummy_threading.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('numpy.distutils.__config__',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\__config__.py',
+   'PYMODULE'),
+  ('numpy.distutils.npy_pkg_config',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\npy_pkg_config.py',
+   'PYMODULE'),
+  ('numpy.distutils.unixccompiler',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.ccompiler',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('numpy.distutils._shell_utils',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\_shell_utils.py',
+   'PYMODULE'),
+  ('pipes',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\pipes.py',
+   'PYMODULE'),
+  ('numpy.distutils.lib2def',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\lib2def.py',
+   'PYMODULE'),
+  ('numpy.distutils.log',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\log.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.dual',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\dual.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.financial',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\financial.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core.machar',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\machar.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('pandas._version',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\_version.py',
+   'PYMODULE'),
+  ('pandas.arrays',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.timedeltas',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.io.formats.format',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\formats\\format.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.multi',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\multi.py',
+   'PYMODULE'),
+  ('pandas.core.indexes',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.numeric',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.ops',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\ops\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expressions',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\expressions.py',
+   'PYMODULE'),
+  ('pandas.core.computation',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.check',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\check.py',
+   'PYMODULE'),
+  ('pandas.compat._optional',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\compat\\_optional.py',
+   'PYMODULE'),
+  ('pandas.compat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\compat\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.pickle_compat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\compat\\pickle_compat.py',
+   'PYMODULE'),
+  ('pandas.core.ops.roperator',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\ops\\roperator.py',
+   'PYMODULE'),
+  ('pandas.core.ops.methods',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\ops\\methods.py',
+   'PYMODULE'),
+  ('pandas.core.ops.mask_ops',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.invalid',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\ops\\invalid.py',
+   'PYMODULE'),
+  ('pandas.core.ops.docstrings',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
+   'PYMODULE'),
+  ('pandas.core.ops.dispatch',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
+   'PYMODULE'),
+  ('pandas.core.ops.common',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\ops\\common.py',
+   'PYMODULE'),
+  ('pandas.core.ops.array_ops',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.missing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\ops\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.construction',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.series',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\series.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.reshape',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\reshape\\reshape.py',
+   'PYMODULE'),
+  ('pandas.core.reshape',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\reshape\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.frame',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\frame.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.merge',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\reshape\\merge.py',
+   'PYMODULE'),
+  ('pandas.core.apply',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\apply.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.melt',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\reshape\\melt.py',
+   'PYMODULE'),
+  ('pandas.core.tools.numeric',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\tools\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.tools',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\tools\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.concat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\dtypes\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\dtypes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.pivot',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\reshape\\pivot.py',
+   'PYMODULE'),
+  ('pandas.core.computation.eval',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\eval.py',
+   'PYMODULE'),
+  ('pandas.core.computation.scope',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\scope.py',
+   'PYMODULE'),
+  ('pandas.core.computation.ops',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.common',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\common.py',
+   'PYMODULE'),
+  ('pandas.compat.chainmap',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\compat\\chainmap.py',
+   'PYMODULE'),
+  ('pandas.core.computation.parsing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\parsing.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expr',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\expr.py',
+   'PYMODULE'),
+  ('pandas.core.computation.engines',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\engines.py',
+   'PYMODULE'),
+  ('pandas.core.computation.align',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\align.py',
+   'PYMODULE'),
+  ('pandas.io.parquet',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\parquet.py',
+   'PYMODULE'),
+  ('pandas.io.s3',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\s3.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._arrow_utils',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\_arrow_utils.py',
+   'PYMODULE'),
+  ('pandas.io.feather_format',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\feather_format.py',
+   'PYMODULE'),
+  ('pandas.io.stata',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\stata.py',
+   'PYMODULE'),
+  ('dateutil.relativedelta',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\relativedelta.py',
+   'PYMODULE'),
+  ('dateutil',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.rrule',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\rrule.py',
+   'PYMODULE'),
+  ('dateutil.parser',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\parser\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser.isoparser',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\parser\\isoparser.py',
+   'PYMODULE'),
+  ('dateutil.parser._parser',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\parser\\_parser.py',
+   'PYMODULE'),
+  ('dateutil.easter',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\easter.py',
+   'PYMODULE'),
+  ('fractions',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\fractions.py',
+   'PYMODULE'),
+  ('dateutil.tz',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\tz\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.tz',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\tz\\tz.py',
+   'PYMODULE'),
+  ('dateutil.zoneinfo',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.win',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\tz\\win.py',
+   'PYMODULE'),
+  ('dateutil.tz._factories',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\tz\\_factories.py',
+   'PYMODULE'),
+  ('dateutil.tz._common',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\tz\\_common.py',
+   'PYMODULE'),
+  ('dateutil._version',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\_version.py',
+   'PYMODULE'),
+  ('dateutil._common',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\_common.py',
+   'PYMODULE'),
+  ('six',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('pandas.io.gbq',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\gbq.py',
+   'PYMODULE'),
+  ('pandas.io',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.clipboards',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\clipboards.py',
+   'PYMODULE'),
+  ('pandas.io.parsers',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\parsers.py',
+   'PYMODULE'),
+  ('pandas.io.date_converters',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\date_converters.py',
+   'PYMODULE'),
+  ('pandas.io.clipboard',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sql',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\sql.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('pandas.io.pytables',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.pytables',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\pytables.py',
+   'PYMODULE'),
+  ('pandas.io.gcs',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\gcs.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\formats\\style.py',
+   'PYMODULE'),
+  ('pandas.io.formats.excel',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\formats\\excel.py',
+   'PYMODULE'),
+  ('pandas.io.excel',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\excel\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlwt',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\excel\\_xlwt.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlsxwriter',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\excel\\_xlsxwriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._util',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\excel\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.excel._openpyxl',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\excel\\_openpyxl.py',
+   'PYMODULE'),
+  ('pandas.io.excel._base',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\excel\\_base.py',
+   'PYMODULE'),
+  ('pandas.io.excel._pyxlsb',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\excel\\_pyxlsb.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlrd',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\excel\\_xlrd.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odfreader',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\excel\\_odfreader.py',
+   'PYMODULE'),
+  ('pandas.io.formats.css',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\formats\\css.py',
+   'PYMODULE'),
+  ('pandas.api.types',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\api\\types\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.api',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\dtypes\\api.py',
+   'PYMODULE'),
+  ('pandas.io.formats.console',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\formats\\console.py',
+   'PYMODULE'),
+  ('pandas.core.internals.construction',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\internals\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.internals.blocks',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\internals\\blocks.py',
+   'PYMODULE'),
+  ('pandas.plotting',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._misc',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\_misc.py',
+   'PYMODULE'),
+  ('pandas.plotting._core',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\_core.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.tools',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\tools.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.compat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\compat.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.misc',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\misc.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.style',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\style.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.hist',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\hist.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.core',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\core.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.timeseries',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\timeseries.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.converter',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\converter.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.boxplot',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\boxplot.py',
+   'PYMODULE'),
+  ('pandas.core.tools.datetimes',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\tools\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.strings',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\strings.py',
+   'PYMODULE'),
+  ('pandas.core.internals',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\internals\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.managers',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\internals\\managers.py',
+   'PYMODULE'),
+  ('pandas.core.internals.concat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\internals\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.indexing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.period',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\period.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimelike',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.tools.timedeltas',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\tools\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.extension',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\extension.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.accessors',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.indexers',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexers.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.generic',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\groupby\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.tile',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\reshape\\tile.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.groupby',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\groupby\\groupby.py',
+   'PYMODULE'),
+  ('pandas.core.window',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.window.rolling',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\window\\rolling.py',
+   'PYMODULE'),
+  ('pandas.core.window.numba_',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\window\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window.indexers',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\window\\indexers.py',
+   'PYMODULE'),
+  ('pandas.core.window.common',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\window\\common.py',
+   'PYMODULE'),
+  ('pandas.core.window.expanding',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\window\\expanding.py',
+   'PYMODULE'),
+  ('pandas.core.window.ewm',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\window\\ewm.py',
+   'PYMODULE'),
+  ('pandas.core.resample',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\resample.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.grouper',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\groupby\\grouper.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.categorical',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\groupby\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.ops',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\groupby\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.base',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\groupby\\base.py',
+   'PYMODULE'),
+  ('pandas.core.groupby',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\groupby\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.accessor',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.generic',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\generic.py',
+   'PYMODULE'),
+  ('pandas.io.formats.csvs',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\formats\\csvs.py',
+   'PYMODULE'),
+  ('pandas.io.pickle',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\pickle.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.inference',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\dtypes\\inference.py',
+   'PYMODULE'),
+  ('pandas.util._validators',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\util\\_validators.py',
+   'PYMODULE'),
+  ('pandas.util',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util.testing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\util\\testing.py',
+   'PYMODULE'),
+  ('pandas._testing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\_testing.py',
+   'PYMODULE'),
+  ('pandas._config.localization',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\_config\\localization.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.util',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\reshape\\util.py',
+   'PYMODULE'),
+  ('pandas.core.util.hashing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\util\\hashing.py',
+   'PYMODULE'),
+  ('pandas.core.util',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.sorting',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\sorting.py',
+   'PYMODULE'),
+  ('pandas.core.missing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.frozen',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\frozen.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.base',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.interval',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\interval.py',
+   'PYMODULE'),
+  ('pandas.util._exceptions',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\util\\_exceptions.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.category',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\category.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.range',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\range.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.cast',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\dtypes\\cast.py',
+   'PYMODULE'),
+  ('pandas.util._decorators',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\util\\_decorators.py',
+   'PYMODULE'),
+  ('pandas.io.formats.html',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\formats\\html.py',
+   'PYMODULE'),
+  ('pandas.io.formats.latex',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\formats\\latex.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.concat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\reshape\\concat.py',
+   'PYMODULE'),
+  ('pandas.io.formats.printing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\formats\\printing.py',
+   'PYMODULE'),
+  ('pandas.io.common',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\common.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.timedeltas',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimes',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.api',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\indexes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.base',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\base.py',
+   'PYMODULE'),
+  ('pandas.io.formats',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\formats\\__init__.py',
+   'PYMODULE'),
+  ('pandas.errors',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\errors\\__init__.py',
+   'PYMODULE'),
+  ('pandas._typing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\_typing.py',
+   'PYMODULE'),
+  ('pandas._config.config',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\_config\\config.py',
+   'PYMODULE'),
+  ('pandas.tseries.frequencies',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\tseries\\frequencies.py',
+   'PYMODULE'),
+  ('pytz',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pytz\\__init__.py',
+   'PYMODULE'),
+  ('pytz.tzfile',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pytz\\tzfile.py',
+   'PYMODULE'),
+  ('pytz.tzinfo',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pytz\\tzinfo.py',
+   'PYMODULE'),
+  ('pytz.lazy',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pytz\\lazy.py',
+   'PYMODULE'),
+  ('pytz.exceptions',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pytz\\exceptions.py',
+   'PYMODULE'),
+  ('pandas.core.common',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\common.py',
+   'PYMODULE'),
+  ('pandas.core.algorithms',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\algorithms.py',
+   'PYMODULE'),
+  ('pandas.core.nanops',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\nanops.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.missing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\dtypes\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.generic',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\dtypes\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.dtypes',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.base',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\dtypes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.common',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\dtypes\\common.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy.function',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\compat\\numpy\\function.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\string_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.period',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\period.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numpy_',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\numpy_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.interval',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.integer',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\integer.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.masked',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\masked.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimes',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._ranges',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\_ranges.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.categorical',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.boolean',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\boolean.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.base',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\base.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimelike',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\__init__.py',
+   'PYMODULE'),
+  ('pandas.testing',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\testing.py',
+   'PYMODULE'),
+  ('pandas.util._tester',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\util\\_tester.py',
+   'PYMODULE'),
+  ('pandas.io.json',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\json\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.json._table_schema',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\json\\_table_schema.py',
+   'PYMODULE'),
+  ('pandas.io.json._normalize',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\json\\_normalize.py',
+   'PYMODULE'),
+  ('pandas.io.json._json',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\json\\_json.py',
+   'PYMODULE'),
+  ('pandas.io.api',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\api.py',
+   'PYMODULE'),
+  ('pandas.io.spss',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\spss.py',
+   'PYMODULE'),
+  ('pandas.io.sas',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\sas\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sasreader',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\sas\\sasreader.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas7bdat',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\sas\\sas7bdat.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_constants',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\sas\\sas_constants.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_xport',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\sas\\sas_xport.py',
+   'PYMODULE'),
+  ('pandas.io.orc',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\orc.py',
+   'PYMODULE'),
+  ('pandas.io.html',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\io\\html.py',
+   'PYMODULE'),
+  ('pandas.util._print_versions',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\util\\_print_versions.py',
+   'PYMODULE'),
+  ('pandas.api',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\api\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.indexers',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\api\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.extensions',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\api\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.api',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\reshape\\api.py',
+   'PYMODULE'),
+  ('pandas.core.computation.api',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\computation\\api.py',
+   'PYMODULE'),
+  ('pandas.tseries.offsets',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\tseries\\offsets.py',
+   'PYMODULE'),
+  ('pandas.tseries',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\tseries\\__init__.py',
+   'PYMODULE'),
+  ('pandas.tseries.api',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\tseries\\api.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.dtype',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\dtype.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.array',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.accessor',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.scipy_sparse',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\scipy_sparse.py',
+   'PYMODULE'),
+  ('pandas.core.api',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\api.py',
+   'PYMODULE'),
+  ('pandas.core.config_init',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\core\\config_init.py',
+   'PYMODULE'),
+  ('pandas._config',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\_config\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config.display',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\_config\\display.py',
+   'PYMODULE'),
+  ('pandas._config.dates',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\_config\\dates.py',
+   'PYMODULE'),
+  ('pandas._libs',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\_libs\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy',
+   'c:\\users\\cat '
+   'mai\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
    'PYMODULE')])
