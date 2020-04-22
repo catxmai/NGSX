@@ -1,6 +1,9 @@
 # -*- mode: python ; coding: utf-8 -*
 block_cipher = None
 
+import sys
+sys.setrecursionlimit(5000)
+
 def get_pandas_path():
     import pandas
     pandas_path = pandas.__path__[0]
