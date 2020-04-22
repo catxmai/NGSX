@@ -644,13 +644,7 @@ class Categorical(ExtensionArray, PandasObject):
             )
             raise ValueError(msg)
 
-        if is_extension_array_dtype(codes) and is_integer_dtype(codes):
-            # Avoid the implicit conversion of Int to object
-            if isna(codes).any():
-                raise ValueError("codes cannot contain NA values")
-            codes = codes.to_numpy(dtype=np.int64)
-        else:
-            codes = np.asarray(codes)
+        codes = np.asarray(codes)  # #21767
         if len(codes) and not is_integer_dtype(codes):
             raise ValueError("codes need to be array-like integers")
 
@@ -2447,30 +2441,18 @@ class Categorical(ExtensionArray, PandasObject):
         """
         inplace = validate_bool_kwarg(inplace, "inplace")
         cat = self if inplace else self.copy()
-
-        # build a dict of (to replace -> value) pairs
-        if is_list_like(to_replace):
-            # if to_replace is list-like and value is scalar
-            replace_dict = {replace_value: value for replace_value in to_replace}
-        else:
-            # if both to_replace and value are scalar
-            replace_dict = {to_replace: value}
-
-        # other cases, like if both to_replace and value are list-like or if
-        # to_replace is a dict, are handled separately in NDFrame
-        for replace_value, new_value in replace_dict.items():
-            if replace_value in cat.categories:
-                if isna(new_value):
-                    cat.remove_categories(replace_value, inplace=True)
-                    continue
+        if to_replace in cat.categories:
+            if isna(value):
+                cat.remove_categories(to_replace, inplace=True)
+            else:
                 categories = cat.categories.tolist()
-                index = categories.index(replace_value)
-                if new_value in cat.categories:
-                    value_index = categories.index(new_value)
+                index = categories.index(to_replace)
+                if value in cat.categories:
+                    value_index = categories.index(value)
                     cat._codes[cat._codes == index] = value_index
-                    cat.remove_categories(replace_value, inplace=True)
+                    cat.remove_categories(to_replace, inplace=True)
                 else:
-                    categories[index] = new_value
+                    categories[index] = value
                     cat.rename_categories(categories, inplace=True)
         if not inplace:
             return cat

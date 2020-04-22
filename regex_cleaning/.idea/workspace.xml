@@ -20,167 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="080b97df-b517-48ca-812e-4c497339006e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/regex_cleaning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/regex_cleaning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/COLLECT-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/COLLECT-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/PKG-00.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/PYZ-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/Tree-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/Tree-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/Tree-01.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/Tree-01.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/Tree-02.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/Tree-02.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/first_gui.exe" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/first_gui.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/first_gui.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/first_gui.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/warn-first_gui.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/warn-first_gui.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/first_gui/xref-first_gui.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/first_gui/xref-first_gui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/Include/pyconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/Include/pyconfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/VCRUNTIME140.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/VCRUNTIME140.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_asyncio.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_asyncio.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_bz2.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_bz2.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_ctypes.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_ctypes.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_decimal.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_decimal.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_elementtree.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_elementtree.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_hashlib.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_hashlib.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_lzma.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_lzma.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_multiprocessing.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_multiprocessing.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_overlapped.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_overlapped.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_queue.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_queue.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_socket.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_socket.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_sqlite3.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_sqlite3.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_ssl.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_ssl.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_testcapi.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_testcapi.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_tkinter.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_tkinter.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/_win32sysloader.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/_win32sysloader.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/first_gui.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/first_gui.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/first_gui.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/first_gui.exe.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/lib2to3/Grammar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/lib2to3/Grammar.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/lib2to3/Grammar3.8.1.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/lib2to3/PatternGrammar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/lib2to3/PatternGrammar.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/lib2to3/PatternGrammar3.8.1.final.0.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/lib2to3/tests/data/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/libcrypto-1_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/libffi-7.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/libopenblas.SVHFG5YE3RK3Z27NVFUDAPL2O3W6IMXW.gfortran-win32.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/libssl-1_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/mfc140u.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/mfc140u.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/core/_multiarray_tests.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/core/_multiarray_umath.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/fft/_pocketfft_internal.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/linalg/_umath_linalg.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/linalg/lapack_lite.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/random/_bit_generator.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/random/_bounded_integers.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/random/_common.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/random/_generator.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/random/_mt19937.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/random/_pcg64.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/random/_philox.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/random/_sfc64.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/numpy/random/mtrand.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/algos.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/groupby.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/hashing.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/hashtable.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/index.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/indexing.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/internals.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/interval.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/join.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/json.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/lib.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/missing.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/ops.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/ops_dispatch.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/parsers.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/properties.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/reduction.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/reshape.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/sparse.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/testing.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslib.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/c_timestamp.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/ccalendar.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/conversion.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/fields.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/frequencies.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/nattype.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/np_datetime.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/offsets.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/parsing.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/period.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/resolution.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/strptime.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/timedeltas.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/timestamps.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/timezones.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/tslibs/tzconversion.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/window/aggregations.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/window/indexers.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/_libs/writers.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pandas/io/sas/_sas.cp38-win32.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pyexpat.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/pyexpat.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/python38.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pythoncom38.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/pywintypes38.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/select.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/select.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/tcl86t.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/tcl86t.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/tk86t.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/tk86t.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/ucrtbase.dll" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/ucrtbase.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/unicodedata.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/unicodedata.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/win32api.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/win32api.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/win32com/shell/shell.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/win32com/shell/shell.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/win32evtlog.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/win32evtlog.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/win32pdh.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/win32pdh.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/win32trace.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/win32trace.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/win32ui.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/win32ui.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/first_gui/win32wnet.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/first_gui/win32wnet.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_gui.spec" beforeDir="false" afterPath="$PROJECT_DIR$/first_gui.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,22 +105,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="679" y="84" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587562651310" />
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1587531726820">
+    <state width="1515" height="164" key="GridCell.Tab.0.bottom" timestamp="1587576150754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587531726820" />
-    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1587531726820">
+    <state width="1515" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587576150754" />
+    <state width="1515" height="164" key="GridCell.Tab.0.center" timestamp="1587576150754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587531726820" />
-    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1587531726820">
+    <state width="1515" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587576150754" />
+    <state width="1515" height="164" key="GridCell.Tab.0.left" timestamp="1587576150753">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587531726820" />
-    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1587531726820">
+    <state width="1515" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587576150753" />
+    <state width="1515" height="164" key="GridCell.Tab.0.right" timestamp="1587576150754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587531726820" />
+    <state width="1515" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587576150754" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1587531726821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

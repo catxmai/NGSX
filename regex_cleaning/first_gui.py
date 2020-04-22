@@ -7,6 +7,7 @@ import re
 from tkinter import *
 from tkinter import filedialog
 import os
+import xlrd
 
 global FILE_NAME
 global df
@@ -37,8 +38,11 @@ def import_csv():
     if name.endswith('.csv'):
         df = pd.read_csv(csv_file_path, encoding="utf-8", header=None)
     if name.endswith('.xlsx'):
-        xl = pd.ExcelFile(name)
-        df = xl.parse("Sheet1", index_col=None, header=None)
+        xl = xlrd.open_workbook(csv_file_path.name, encoding_override='utf-8')
+        df = pd.read_excel(xl, header=None)
+        # xl = pd.ExcelFile(csv_file_path)
+        print(csv_file_path)
+        # df = xl.parse("Sheet1", index_col=None, header=None)
         # df = pd.read_excel(csv_file_path, 'Sheet1', encoding="cp1252", index_col=None)
     df.columns = ["timestamp", "name", "text"]
     for index, col in df.iterrows():
@@ -69,6 +73,8 @@ def write_excel():
         done_message(5, 1, saved_message)
     except OSError as e:
         print(e)
+        popupdialog("OS error")
+        root.protocol("WM_DELETE_WINDOW", root.destroy)
 
 
 def clean_text(command):

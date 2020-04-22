@@ -158,23 +158,21 @@ class BaseGetitemTests(BaseExtensionTests):
         result = pd.Series(data)[mask]
         self.assert_series_equal(result, expected)
 
-    def test_getitem_boolean_na_treated_as_false(self, data):
-        # https://github.com/pandas-dev/pandas/issues/31503
+    def test_getitem_boolean_array_mask_raises(self, data):
         mask = pd.array(np.zeros(data.shape, dtype="bool"), dtype="boolean")
         mask[:2] = pd.NA
-        mask[2:4] = True
 
-        result = data[mask]
-        expected = data[mask.fillna(False)]
-
-        self.assert_extension_array_equal(result, expected)
+        msg = (
+            "Cannot mask with a boolean indexer containing NA values|"
+            "cannot mask with array containing NA / NaN values"
+        )
+        with pytest.raises(ValueError, match=msg):
+            data[mask]
 
         s = pd.Series(data)
 
-        result = s[mask]
-        expected = s[mask.fillna(False)]
-
-        self.assert_series_equal(result, expected)
+        with pytest.raises(ValueError):
+            s[mask]
 
     @pytest.mark.parametrize(
         "idx",

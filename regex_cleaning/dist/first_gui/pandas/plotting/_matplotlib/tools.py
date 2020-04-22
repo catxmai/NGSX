@@ -9,8 +9,6 @@ import numpy as np
 from pandas.core.dtypes.common import is_list_like
 from pandas.core.dtypes.generic import ABCDataFrame, ABCIndexClass, ABCSeries
 
-from pandas.plotting._matplotlib import compat
-
 
 def format_date_labels(ax, rot):
     # mini version of autofmt_xdate
@@ -290,12 +288,6 @@ def _remove_labels_from_axis(axis):
 
 def _handle_shared_axes(axarr, nplots, naxes, nrows, ncols, sharex, sharey):
     if nplots > 1:
-        if compat._mpl_ge_3_2_0():
-            row_num = lambda x: x.get_subplotspec().rowspan.start
-            col_num = lambda x: x.get_subplotspec().colspan.start
-        else:
-            row_num = lambda x: x.rowNum
-            col_num = lambda x: x.colNum
 
         if nrows > 1:
             try:
@@ -303,13 +295,13 @@ def _handle_shared_axes(axarr, nplots, naxes, nrows, ncols, sharex, sharey):
                 # so that we can correctly handle 'gaps"
                 layout = np.zeros((nrows + 1, ncols + 1), dtype=np.bool)
                 for ax in axarr:
-                    layout[row_num(ax), col_num(ax)] = ax.get_visible()
+                    layout[ax.rowNum, ax.colNum] = ax.get_visible()
 
                 for ax in axarr:
                     # only the last row of subplots should get x labels -> all
                     # other off layout handles the case that the subplot is
                     # the last in the column, because below is no subplot/gap.
-                    if not layout[row_num(ax) + 1, col_num(ax)]:
+                    if not layout[ax.rowNum + 1, ax.colNum]:
                         continue
                     if sharex or len(ax.get_shared_x_axes().get_siblings(ax)) > 1:
                         _remove_labels_from_axis(ax.xaxis)
