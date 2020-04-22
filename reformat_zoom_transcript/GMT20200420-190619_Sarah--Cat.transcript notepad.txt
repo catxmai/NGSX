@@ -1,0 +1,950 @@
+WEBVTT
+
+1
+00:00:03.360 --> 00:00:05.759
+Margaret Foster: Because if we record to the cloud, then
+
+2
+00:00:06.569 --> 00:00:07.620
+Sarah Michaels: Record to your computer.
+
+3
+00:00:08.099 --> 00:00:12.630
+Margaret Foster: No, because if we record to the cloud that there's a way to get it to automatically transcribed.
+
+4
+00:00:13.139 --> 00:00:20.340
+Sarah Michaels: Oh, well, we could try that I've just never done that night. It's a, it's a little bit more complicated. I just didn't want to
+
+5
+00:00:22.140 --> 00:00:23.220
+Sarah Michaels: Okay, let's try it.
+
+6
+00:00:24.150 --> 00:00:29.580
+Margaret Foster: Yeah, I'm good. I quickly look up but or oh no he has to show us that out first. Yeah.
+
+7
+00:00:29.820 --> 00:00:31.950
+Cat Mai: Oh, sure. Okay, I'll share my screen.
+
+8
+00:00:33.330 --> 00:00:36.090
+Cat Mai: Oh, can you enable participants venture
+
+9
+00:00:50.130 --> 00:00:51.090
+Cat Mai: Run this
+
+10
+00:00:53.730 --> 00:00:55.110
+Cat Mai: Can you see something popped up.
+
+11
+00:00:58.260 --> 00:00:58.800
+Margaret Foster: Yes.
+
+12
+00:00:59.220 --> 00:01:07.650
+Cat Mai: Okay, so, so I'm open the CSV file first. So this is what our transcript looks like.
+
+13
+00:01:09.270 --> 00:01:09.660
+Cat Mai: Raw
+
+14
+00:01:11.070 --> 00:01:13.740
+Cat Mai: OK, so I'll browse click on it.
+
+15
+00:01:14.490 --> 00:01:17.850
+Margaret Foster: Oh, I think we only see the the code.
+
+16
+00:01:18.540 --> 00:01:18.900
+Oh,
+
+17
+00:01:21.810 --> 00:01:26.160
+Margaret Foster: You can click New share and then just click Share screen and then we'll see everything.
+
+18
+00:01:27.030 --> 00:01:29.340
+Cat Mai: Okay, new share
+
+19
+00:01:38.070 --> 00:01:38.460
+Cat Mai: Can you see my
+
+20
+00:01:40.770 --> 00:01:43.260
+Margaret Foster: Screen transcript. Yep. Yes.
+
+21
+00:01:43.710 --> 00:01:44.250
+Cat Mai: Alright, cool.
+
+22
+00:01:45.630 --> 00:01:48.990
+Cat Mai: So, um, can you see a window popped up.
+
+23
+00:01:49.530 --> 00:01:49.920
+Margaret Foster: Yes.
+
+24
+00:01:50.400 --> 00:01:53.490
+Cat Mai: OK, cool. So I just click the transcript.
+
+25
+00:01:55.440 --> 00:02:06.000
+Cat Mai: It's just like our transcript. I'm the function, it just rubbish just clean elsewhere bracket. So I click on it and now I say that, say like result.
+
+26
+00:02:10.320 --> 00:02:11.820
+Cat Mai: Okay, um,
+
+27
+00:02:14.670 --> 00:02:18.600
+Cat Mai: How it looks like because that was a little fast.
+
+28
+00:02:20.340 --> 00:02:20.790
+Cat Mai: Okay.
+
+29
+00:02:27.360 --> 00:02:28.530
+Cat Mai: Do you see the Excel.
+
+30
+00:02:28.740 --> 00:02:29.040
+Yep.
+
+31
+00:02:30.240 --> 00:02:36.990
+Cat Mai: So after after everyone around the pro file it cleans all the square brackets out of
+
+32
+00:02:38.280 --> 00:02:40.080
+Sarah Michaels: Brilliant. Well,
+
+33
+00:02:40.110 --> 00:02:49.080
+Cat Mai: If there's like later features that we want, I can just write it. That's like a demo function to clean our reach transferred out of the attacks.
+
+34
+00:02:49.860 --> 00:02:51.360
+Sarah Michaels: That is so cool.
+
+35
+00:02:52.590 --> 00:02:54.120
+Sarah Michaels: So that if we
+
+36
+00:02:55.920 --> 00:02:59.400
+Sarah Michaels: So that if we we could read. We could have the two columns.
+
+37
+00:03:02.040 --> 00:03:04.170
+Sarah Michaels: I guess you could work. Huh.
+
+38
+00:03:05.190 --> 00:03:06.360
+Sarah Michaels: Would you Word Wrap.
+
+39
+00:03:08.460 --> 00:03:20.610
+Sarah Michaels: That would be kind of hard. But anyway, you could you could read it in either column you could get the contextual stuff and then you could just get the words at the speaker spoke
+
+40
+00:03:21.420 --> 00:03:23.250
+Margaret Foster: And then like
+
+41
+00:03:24.810 --> 00:03:29.010
+Margaret Foster: For me I think the biggest thing is that this means that we don't have to be as careful about
+
+42
+00:03:30.060 --> 00:03:34.830
+Margaret Foster: Like not having spaces in between brackets and stuff anymore because for like the CDA account.
+
+43
+00:03:35.190 --> 00:03:43.230
+Margaret Foster: That was like the big thing that we talked so much about last year, like, make sure that you don't have too many spaces between your brackets and your parentheses and stuff.
+
+44
+00:03:43.560 --> 00:03:49.620
+Margaret Foster: Make sure that all your words run together. So it only counts as one word, but if we can just take out the brackets, then
+
+45
+00:03:50.760 --> 00:03:52.470
+Margaret Foster: It'll be much easier to just run
+
+46
+00:03:53.490 --> 00:03:58.650
+Margaret Foster: The clean transcript through CD to get an accurate word count. Right.
+
+47
+00:03:59.100 --> 00:04:11.010
+Sarah Michaels: So let me just with overlaps and stuff. What, what, and what happens there, because we, I think we put those in brackets as well. And that may be fine. Just get rid of them, but
+
+48
+00:04:11.700 --> 00:04:22.890
+Cat Mai: Usually, so I can customize it every way. So I can clean out only D op or I can clean up the spaces into practice so that the transcript looks the same, just without the space.
+
+49
+00:04:26.310 --> 00:04:40.230
+Cat Mai: Um, I think the norm now is to put the O v e and d overlapping more like just I'm saying, really simple. Like, that's great. Yeah. And then we do use that as far brackets, so that way we can just clean out the space for a CPA.
+
+50
+00:04:42.030 --> 00:04:46.560
+Sarah Michaels: Can, can you find an Ovi in this example transcript.
+
+51
+00:04:47.550 --> 00:04:51.240
+Cat Mai: This I think this was an old one. We didn't migrate to
+
+52
+00:04:51.600 --> 00:04:51.900
+Sarah Michaels: Be
+
+53
+00:04:52.290 --> 00:04:57.390
+Cat Mai: Yeah. So usually, it would just be like this. So,
+
+54
+00:04:57.870 --> 00:04:58.350
+I say
+
+55
+00:04:59.520 --> 00:05:02.670
+Margaret Foster: And Sarah. What we did later to is
+
+56
+00:05:03.900 --> 00:05:13.320
+Margaret Foster: So like how it was saying the back channel cues get embedded in brackets and then if somebody overlaps, but says something substantive then we put an Ovi
+
+57
+00:05:13.680 --> 00:05:22.740
+Margaret Foster: In the middle of the longer term, where they overlap and then again like had said put like you begin with OB. But the idea being that nobody like
+
+58
+00:05:24.060 --> 00:05:30.510
+Margaret Foster: The only thing that's embedded and then would be cleaned with cleaning brackets would be a back channel queue. Right.
+
+59
+00:05:30.720 --> 00:05:33.090
+Sarah Michaels: And so those would disappear.
+
+60
+00:05:34.290 --> 00:05:36.750
+Cat Mai: Are currently in this in this demo.
+
+61
+00:05:36.810 --> 00:05:37.560
+Cat Mai: I can do that.
+
+62
+00:05:38.400 --> 00:05:44.340
+Sarah Michaels: I think that, so we wouldn't give anybody credit for any of those back channel. I think that's totally fine.
+
+63
+00:05:45.960 --> 00:05:47.820
+Sarah Michaels: Okay, that's, that's cool.
+
+64
+00:05:50.730 --> 00:05:55.050
+Sarah Michaels: And then if we wanted to run the CDA we would just take column D.
+
+65
+00:05:56.580 --> 00:05:59.250
+Sarah Michaels: And you know, we would just create a new
+
+66
+00:06:01.680 --> 00:06:08.610
+Sarah Michaels: One, what would you, how would you then you've got your line number, your time code your speaker. Right.
+
+67
+00:06:08.970 --> 00:06:20.670
+Cat Mai: Um, so this is for either easier to compare. I can also make them just replace everything because you're saving in a different file. You're not replacing the original file. So you can do whatever with it.
+
+68
+00:06:21.480 --> 00:06:23.430
+Sarah Michaels: I say, yeah.
+
+69
+00:06:26.610 --> 00:06:27.840
+Sarah Michaels: So,
+
+70
+00:06:29.160 --> 00:06:35.970
+Sarah Michaels: What would be nice for me is to see this. So is this the full sound.
+
+71
+00:06:37.200 --> 00:06:38.370
+Sarah Michaels: Virtual study group.
+
+72
+00:06:40.710 --> 00:06:42.000
+Cat Mai: I think this what
+
+73
+00:06:42.030 --> 00:06:42.570
+Was
+
+74
+00:06:44.970 --> 00:06:47.190
+Cat Mai: It was yeah 2017
+
+75
+00:06:47.880 --> 00:06:50.490
+Cat Mai: Okay. SOUND virtual group. Yeah.
+
+76
+00:06:52.680 --> 00:06:57.900
+Sarah Michaels: So I'd like to, I'd like to run it in CDA and see what it looks like.
+
+77
+00:07:00.420 --> 00:07:07.470
+Sarah Michaels: So that we could actually examine you know where the, where the turn depth is and all that stuff.
+
+78
+00:07:08.700 --> 00:07:09.570
+Sarah Michaels: So,
+
+79
+00:07:10.860 --> 00:07:20.010
+Sarah Michaels: Could you could you set it up so that CDA can handle it and run it and get a visualization that and then we could talk about that at another time.
+
+80
+00:07:20.820 --> 00:07:25.710
+Cat Mai: What do you mean by running to see dear, this just the same transcription. So it doesn't change anything.
+
+81
+00:07:26.040 --> 00:07:27.930
+Sarah Michaels: No, I mean, put it through.
+
+82
+00:07:28.080 --> 00:07:30.330
+Sarah Michaels: So that we call visualizations.
+
+83
+00:07:31.050 --> 00:07:36.210
+Cat Mai: Oh, for, is there anything specific public transfer. This is an old one. I just pull it up for
+
+84
+00:07:36.300 --> 00:07:38.400
+Sarah Michaels: Yeah yeah i mean
+
+85
+00:07:39.870 --> 00:07:53.670
+Sarah Michaels: To some extent I I want us to think about what we can do is CDA in any of our transcripts, if you had one from our work with Sue and Jess, that would be even better.
+
+86
+00:07:54.750 --> 00:08:06.180
+Sarah Michaels: If, if a transcript. A good transcript. A good significant transcript exists. So, not one of the virtual study groups, but a real Sue ingests transcript.
+
+87
+00:08:07.380 --> 00:08:10.860
+Sarah Michaels: Maggie, I don't know if you have a father. Do we have a good solid one
+
+88
+00:08:12.330 --> 00:08:13.260
+Cat Mai: Can you see my screen.
+
+89
+00:08:13.470 --> 00:08:14.760
+Sarah Michaels: Yeah yeah yeah
+
+90
+00:08:14.850 --> 00:08:17.310
+Cat Mai: I think this was that VA CDs.
+
+91
+00:08:17.850 --> 00:08:29.460
+Sarah Michaels: This is that CDA okay so you can see lots of greens and lots of in a few places, maybe that you want to look at. So the next step with and so
+
+92
+00:08:30.540 --> 00:08:45.330
+Sarah Michaels: So the next step with CDA is to actual actually think about codes coding and that's the next step that we have not investigated, so you can you can code up to nine codes. Yep.
+
+93
+00:08:48.090 --> 00:09:06.990
+Sarah Michaels: And it's a question of which which codes we pick and that would be something we'd have to decide. But then, so I guess there's a part of me that wants to start with a transcript that we can appreciate, I'd love to do it with a su and just one where we know what we're interested in.
+
+94
+00:09:07.590 --> 00:09:16.170
+Sarah Michaels: And begin to explore the coding, not just the visualization with turn, you know, turn length and words per turn, and
+
+95
+00:09:17.820 --> 00:09:18.540
+Sarah Michaels: Turn depth.
+
+96
+00:09:20.430 --> 00:09:31.980
+Sarah Michaels: So could I cast. So this is, I didn't want to get into the specific things, but could I task you with for a next meeting, selecting one of the
+
+97
+00:09:33.060 --> 00:09:43.380
+Sarah Michaels: Longer transcripts from soon. Just this year cleaning it for CDA and then running some CDA visualization
+
+98
+00:09:44.610 --> 00:09:45.390
+Sarah Michaels: And then
+
+99
+00:09:47.250 --> 00:09:56.280
+Sarah Michaels: Spending time looking at it and thinking about coding the transcript. Now that that we haven't can can run it on CDA
+
+100
+00:09:59.040 --> 00:09:59.340
+Cat Mai: Yeah.
+
+101
+00:10:00.540 --> 00:10:07.590
+Sarah Michaels: Maybe together, we should think about which one. And we've got a bunch of transcripts, Maggie. You've, you've seen
+
+102
+00:10:11.970 --> 00:10:21.420
+Margaret Foster: In terms of like a whole class transcript. I think we only have the scientist circles, and I would be concerned about using those because I'm not sure.
+
+103
+00:10:22.920 --> 00:10:31.590
+Margaret Foster: About the like cat. You just finished the second scientist circle, but nobody's looked at it to translate it yet, or to transcribe this finish so
+
+104
+00:10:32.220 --> 00:10:40.200
+Margaret Foster: That might be a limitation of using a longer transcript, but I know that there are a bunch of shorter ones that we could use for some of the different routines.
+
+105
+00:10:45.150 --> 00:10:47.310
+Sarah Michaels: So we want to pick a good
+
+106
+00:10:48.450 --> 00:10:55.260
+Sarah Michaels: You know MIDI transcript to to work with, just to explore the potential of CDA
+
+107
+00:10:56.520 --> 00:10:57.570
+Sarah Michaels: So,
+
+108
+00:11:00.150 --> 00:11:02.910
+Sarah Michaels: To Maggie. Do you have any recommendations.
+
+109
+00:11:07.980 --> 00:11:09.420
+Margaret Foster: An account. If you have any two
+
+110
+00:11:09.540 --> 00:11:11.520
+Sarah Michaels: Ways you can do you have a
+
+111
+00:11:12.090 --> 00:11:14.460
+Sarah Michaels: hunch about what would be a good one to start with.
+
+112
+00:11:15.720 --> 00:11:23.520
+Cat Mai: Um, I really don't know. I thought the science of circle will be pretty good. There's a lot of students. SPEAKING SPANISH as
+
+113
+00:11:24.870 --> 00:11:27.660
+Sarah Michaels: Well, so it's not translated. Is that what you're saying.
+
+114
+00:11:29.040 --> 00:11:34.290
+Cat Mai: Is like is messy. I guess because there's a lot of times worse even just chatting with each other.
+
+115
+00:11:35.310 --> 00:11:40.920
+Cat Mai: We don't know. It just, they're actually. Yeah, we don't know what's happening. But that might be
+
+116
+00:11:43.590 --> 00:11:53.970
+Sarah Michaels: So you did. You did the second scientist circle right well I remind me which which did you think was better which scientists circle was better.
+
+117
+00:11:56.070 --> 00:11:59.040
+Cat Mai: Um, I forgot was was the first one.
+
+118
+00:12:00.030 --> 00:12:01.410
+Sarah Michaels: I think the first one.
+
+119
+00:12:03.600 --> 00:12:06.660
+Margaret Foster: First one was about unity and diversity, like what was
+
+120
+00:12:07.140 --> 00:12:10.380
+Sarah Michaels: Very early and you an Oscar was there.
+
+121
+00:12:10.740 --> 00:12:11.490
+Margaret Foster: Your scar.
+
+122
+00:12:11.880 --> 00:12:12.270
+Scar
+
+123
+00:12:15.120 --> 00:12:18.180
+Margaret Foster: Yeah, I thought there was a different version of this one.
+
+124
+00:12:19.440 --> 00:12:19.890
+Margaret Foster: Maybe not.
+
+125
+00:12:21.090 --> 00:12:28.170
+Margaret Foster: But this one, I think, does have Spanish in it. This is the first scientists circle.
+
+126
+00:12:33.600 --> 00:12:37.050
+Margaret Foster: Yeah, and obvious especially beginning has been translated
+
+127
+00:12:38.640 --> 00:12:39.570
+Margaret Foster: Sorry, I'm struggling
+
+128
+00:12:41.610 --> 00:12:46.650
+Margaret Foster: Oh, it's the end. That's why. Okay. Yeah. So this one does have the Spanish in it. So, this one might be good.
+
+129
+00:12:49.050 --> 00:12:49.620
+Sarah Michaels: So,
+
+130
+00:12:50.970 --> 00:12:55.500
+Sarah Michaels: Show me a place where there's so is the Spanish translated in brackets or what
+
+131
+00:12:57.720 --> 00:12:58.530
+Sarah Michaels: Over there.
+
+132
+00:12:59.730 --> 00:13:01.140
+Sarah Michaels: Oh, interesting. Okay.
+
+133
+00:13:01.980 --> 00:13:05.100
+Margaret Foster: And then there's a it looks like there's a couple places where like
+
+134
+00:13:06.150 --> 00:13:13.530
+Margaret Foster: Like I haven't looked at this closely, personally, so it looks like. Here is a place where maybe Oscar should have a different turn
+
+135
+00:13:18.720 --> 00:13:21.030
+Margaret Foster: And like, yeah, some places embedded here too.
+
+136
+00:13:22.590 --> 00:13:26.190
+Sarah Michaels: Oh, in the second, the second scientist circle.
+
+137
+00:13:28.020 --> 00:13:29.370
+Sarah Michaels: I think it was during
+
+138
+00:13:30.570 --> 00:13:33.780
+Margaret Foster: Population dynamics, but we can't you just do. Yeah.
+
+139
+00:13:36.660 --> 00:13:40.590
+Cat Mai: It was it was felt numb selection natural selection.
+
+140
+00:13:40.860 --> 00:13:42.090
+Uh huh. Yeah.
+
+141
+00:13:45.390 --> 00:13:49.950
+Cat Mai: Yeah, young you talk us talk about the green, snake, snake and
+
+142
+00:13:50.340 --> 00:13:53.010
+Sarah Michaels: Okay, right, right, right, right.
+
+143
+00:13:53.340 --> 00:13:54.720
+Sarah Michaels: And the hairy people
+
+144
+00:13:54.810 --> 00:13:55.500
+There. Yeah.
+
+145
+00:13:56.520 --> 00:14:05.100
+Sarah Michaels: So yeah, that was a cool one. That was cool. So what would it take to work up both transcripts.
+
+146
+00:14:06.540 --> 00:14:12.600
+Sarah Michaels: That is clean them up a bit, so that they could be cleaned for CDA
+
+147
+00:14:15.330 --> 00:14:18.030
+Sarah Michaels: What, how much time would it takes so cat. If you were to
+
+148
+00:14:19.110 --> 00:14:39.270
+Sarah Michaels: Re listen to them. I'm not so concerned about this translation of the Spanish at this point, but we would have to do that, you know, we will have to get but I'm if we have basically the words that people spoke and maybe there'll be in parentheses, if we're not sure what they're saying.
+
+149
+00:14:40.800 --> 00:14:43.020
+Sarah Michaels: There will be brackets, which can be claimed.
+
+150
+00:14:46.140 --> 00:15:01.110
+Sarah Michaels: What how long would it. So if you would go through the first transcript just listening to it and just checking and making sure and then put it in the right form for CDA. How long do you think that would take you
+
+151
+00:15:02.790 --> 00:15:11.760
+Cat Mai: And if it's just for cleaning first year that we pretty quick, but not sure about listening to it. What do you want me to look for when I'm listening to it.
+
+152
+00:15:12.150 --> 00:15:12.810
+Well,
+
+153
+00:15:15.750 --> 00:15:17.610
+Sarah Michaels: I don't know who transcribed. The first one
+
+154
+00:15:18.870 --> 00:15:19.320
+Sarah Michaels: But
+
+155
+00:15:19.650 --> 00:15:33.660
+Sarah Michaels: The Sunday. Okay, so it's it's probably good, it's probably good so clean it for CDA that won't take very long. And you just did the second one. So you said, the second one is rough. What do you mean by that.
+
+156
+00:15:37.440 --> 00:15:38.400
+Cat Mai: So out of Spanish
+
+157
+00:15:39.720 --> 00:15:45.810
+Sarah Michaels: And so when you came to Spanish. What did you do, you just sort of said dot dot dot and Eddie will fix this or something.
+
+158
+00:15:46.320 --> 00:15:48.240
+Cat Mai: I put us were practicing Spanish
+
+159
+00:15:50.520 --> 00:15:55.230
+Sarah Michaels: You put in square brackets in Spanish. So we don't know how many words or anything like that.
+
+160
+00:15:55.440 --> 00:15:56.340
+Sarah Michaels: I think that's
+
+161
+00:15:56.760 --> 00:16:00.690
+Sarah Michaels: I think that's okay. I mean, what would it take to get somebody
+
+162
+00:16:02.010 --> 00:16:08.700
+Sarah Michaels: To be able to translate the Spanish that's hard because that is just not he's not with us.
+
+163
+00:16:10.620 --> 00:16:13.920
+Margaret Foster: We can ask her. Oh, sorry to set
+
+164
+00:16:15.210 --> 00:16:17.550
+Cat Mai: A Maggie. Are you free enough to do it.
+
+165
+00:16:20.520 --> 00:16:22.080
+Sarah Michaels: I don't think you have the bandwidth
+
+166
+00:16:22.260 --> 00:16:29.610
+Margaret Foster: Yeah, I can I can I can try. I, my concern is more if I will understand them or not.
+
+167
+00:16:32.160 --> 00:16:48.630
+Sarah Michaels: And even if it was kind of adjust you did the very best. You couldn't you know in English. So, so what we could do in the translated version is to say, Spanish and then put a just in English as close as you could get
+
+168
+00:16:49.110 --> 00:17:04.500
+Margaret Foster: And then mean I don't know. That would be saying like translates fine. I mean, I'm not sure I'd be able to understand what they're saying in Spanish, but I could go through and do my best. And then if it isn't like I'll spend a couple hours on it. And then if I can't. Yeah.
+
+169
+00:17:04.980 --> 00:17:10.380
+Sarah Michaels: Now the alternative would be for you to talk to the person who does speak Spanish, and who you might
+
+170
+00:17:12.480 --> 00:17:14.430
+Sarah Michaels: So to just really turn that
+
+171
+00:17:14.580 --> 00:17:24.510
+Sarah Michaels: That kind of work over to somebody else, which might take enough of your time anyway. It might. It might be worth it. But there is something about having a Spanish
+
+172
+00:17:25.560 --> 00:17:29.490
+Sarah Michaels: Speaker in the system that would be really great before you leave.
+
+173
+00:17:31.830 --> 00:17:34.260
+Margaret Foster: Yeah, and I also know more about
+
+174
+00:17:35.730 --> 00:17:42.810
+Margaret Foster: Like sorry quick sidebar will know more about like summer work stuff. There's a staff meeting on Thursday that
+
+175
+00:17:43.410 --> 00:17:45.570
+Margaret Foster: Where everybody will get more information about like
+
+176
+00:17:45.840 --> 00:17:56.940
+Margaret Foster: Summer work forums and what does Student Employment look like over the, over the summer and stuff. Because right now, the issue is that we can't hire anybody new like we got an exception for account because her stuff was already in
+
+177
+00:17:57.240 --> 00:18:11.910
+Margaret Foster: Like in progress. Before coming to you, but like the like we can't hire any more students right now. But when it turns over to summer it's possible that that will be lifted and we'll be able to do that again. But I'm not sure.
+
+178
+00:18:12.630 --> 00:18:15.630
+Sarah Michaels: So for a plan. So if if cat.
+
+179
+00:18:15.810 --> 00:18:30.510
+Sarah Michaels: cleans the first scientist circle for CDA and Maggie spends a couple of hours trying to get some just. It could be, in essence, it could be in Spanish or in English, it doesn't
+
+180
+00:18:32.850 --> 00:18:43.230
+Sarah Michaels: Eventually when we start to code for the content and stuff. But if you could spend a little bit of time on that. And then cat could put that into form.
+
+181
+00:18:43.920 --> 00:18:54.330
+Sarah Michaels: And we could run the two visualizations, I think, then we could start looking at them and thinking about what kinds of things we might want to code for
+
+182
+00:18:55.500 --> 00:19:05.790
+Sarah Michaels: And then once we can play around with that we could, I mean, again, it would be kind of cool to be able to code all of our transcript.
+
+183
+00:19:07.050 --> 00:19:10.530
+Sarah Michaels: Bits if we wanted to. I'm not sure.
+
+184
+00:19:11.640 --> 00:19:23.700
+Sarah Michaels: You know that we might really focus on teacher, teacher moves, just for now we could code for complexity, just very simple
+
+185
+00:19:25.380 --> 00:19:38.760
+Sarah Michaels: issues around complexity for student participants anyway. Not sure what we will end up with, but at least we could get started and we could have a CDA working series of meetings.
+
+186
+00:19:39.960 --> 00:19:42.000
+Sarah Michaels: Across the next month or so.
+
+187
+00:19:44.100 --> 00:19:58.890
+Sarah Michaels: So that's that's that's CDA and that's really great. And I'll also talk with Cathy to think a little bit about how to investigate what we can do a CDA and she might want to join some of these conversations, that would be great.
+
+188
+00:20:01.230 --> 00:20:14.130
+Sarah Michaels: So now let's shift away from CDA and think about other things that oh, the other thing I was thinking, Maggie is
+
+189
+00:20:15.330 --> 00:20:36.120
+Sarah Michaels: One thing we can do with transcripts and this can be interview transcripts as well is grab grab a segment of a transcript that seems to relate to a theme so anytime there's anything relating division or something like that. We can code it.
+
+190
+00:20:38.640 --> 00:20:52.230
+Sarah Michaels: For for vision and you can grab this stuff around it and in vivo can handle that. So you're grabbing discourse data around some themes
+
+191
+00:20:52.800 --> 00:20:56.130
+Sarah Michaels: And then you can look at what's actually being said
+
+192
+00:20:56.850 --> 00:21:06.000
+Sarah Michaels: And so that's a different mean what Gina unfortunately is doing is just looking for words, at this point, which is not going to get us very far.
+
+193
+00:21:06.360 --> 00:21:17.430
+Sarah Michaels: But what you can do is use your intuitive notion about a word like vision and read through the transcript for anything that seems related to vision.
+
+194
+00:21:18.000 --> 00:21:29.280
+Sarah Michaels: And grab the talk around it. It could be the prompt that comes first and then the. It could be a paragraph or two. It could be a sentence or two. I mean,
+
+195
+00:21:29.730 --> 00:21:44.880
+Sarah Michaels: But then we would have discourse data about something. And now we could think about what kind of what kind of what's interesting about it and how it what's going on. We could look at sort of related
+
+196
+00:21:46.590 --> 00:21:48.990
+Sarah Michaels: Chunks of discourse.
+
+197
+00:21:50.010 --> 00:21:52.680
+Margaret Foster: Are you talking about the Connecticut case study.
+
+198
+00:21:52.920 --> 00:22:05.910
+Sarah Michaels: I'm thinking about interviewing Sue and Jess, I'm thinking about interviewing Liz Butner that what we may want to do interviewing the kids what we may want is some topical.
+
+199
+00:22:06.690 --> 00:22:19.710
+Sarah Michaels: Chunks and look closely at how kids talk about x. And that's another. That's another use of CDA you just say vision.
+
+200
+00:22:20.160 --> 00:22:31.320
+Sarah Michaels: And you can see in the transcript. Where is that happening. And then we could go and look there and try to see what what we see in other words we could use some
+
+201
+00:22:31.830 --> 00:22:49.140
+Sarah Michaels: Basic CDA stuff for telling us as humans, what might be worth looking at as a chunk. Another thing. So the but in vivo. Does that also in vivo allows you to go through a transcript.
+
+202
+00:22:50.040 --> 00:23:14.070
+Sarah Michaels: Copy you chunk it part and then organize all those chunks and start reading through them. So we may not need CDA but then the question is cat. Do you know how to do that in in vivo. So another question of a topic would be, should we get cat to be an more expert at using
+
+203
+00:23:15.270 --> 00:23:20.790
+Sarah Michaels: Qualitative software that we might find useful in the project.
+
+204
+00:23:22.020 --> 00:23:25.170
+Sarah Michaels: And I don't know. So can you probably if you ever heard of in vivo.
+
+205
+00:23:27.180 --> 00:23:27.750
+Cat Mai: I don't think so.
+
+206
+00:23:28.500 --> 00:23:44.100
+Sarah Michaels: It's, it's just one among many qualitative software packages that allows you to do some coding and looking at the the chunks that you've coded
+
+207
+00:23:44.580 --> 00:23:58.200
+Sarah Michaels: And developing higher and higher codes or whatever. But you can work with discourse data with in vivo, because you can take a whole big part and give it a code.
+
+208
+00:23:59.880 --> 00:24:08.580
+Sarah Michaels: And then you can ask for all the instances of that code and it will just put it into a an organized so we could look at all the
+
+209
+00:24:10.020 --> 00:24:10.500
+Sarah Michaels: Maggie's
+
+210
+00:24:13.830 --> 00:24:14.610
+Sarah Michaels: You want to share
+
+211
+00:24:19.710 --> 00:24:20.610
+Sarah Michaels: I can't hear you.
+
+212
+00:24:22.950 --> 00:24:34.560
+Margaret Foster: Sorry. Um, I've been told that recently my audio has been really bad or gotten really like for. So I've been trying to get myself muted there was
+
+213
+00:24:36.870 --> 00:24:44.910
+Margaret Foster: It's been a very long time since I've used this. Oh my gosh, I'm so basically the idea. This is not a good example. This is empty.
+
+214
+00:24:46.560 --> 00:24:47.460
+Margaret Foster: The
+
+215
+00:24:54.900 --> 00:24:55.380
+Margaret Foster: Man.
+
+216
+00:24:56.070 --> 00:24:59.250
+Sarah Michaels: We could look at what's his faces.
+
+217
+00:25:00.000 --> 00:25:02.220
+Margaret Foster: Yeah, I'm
+
+218
+00:25:03.510 --> 00:25:04.020
+Margaret Foster: Saying
+
+219
+00:25:06.690 --> 00:25:07.770
+Margaret Foster: This is interesting.
+
+220
+00:25:09.270 --> 00:25:09.930
+Margaret Foster: Yeah, so
+
+221
+00:25:13.050 --> 00:25:32.100
+Margaret Foster: Yeah, actually, the sun, basically, that you can like put transcripts into here and then you are like put text into here and then you highlight it and you can do different stuff with like they call them nodes, instead of codes and you can do a whole lot of different stuff like visualizing
+
+222
+00:25:33.450 --> 00:25:34.770
+Margaret Foster: The coding stripes.
+
+223
+00:25:35.880 --> 00:25:44.910
+Margaret Foster: You can like link different memos zoom in and out do different at yeah word cloud just all the stuff that I have never had time
+
+224
+00:25:45.330 --> 00:25:49.140
+Sarah Michaels: That a word cloud. Oh my god. People big cities you
+
+225
+00:25:50.430 --> 00:25:50.910
+Sarah Michaels: Funny.
+
+226
+00:25:51.510 --> 00:25:52.260
+Margaret Foster: Oh my gosh.
+
+227
+00:25:56.580 --> 00:26:02.970
+Sarah Michaels: So, so that's another. That's another question in vivo is, you know, there's a learning curve and
+
+228
+00:26:03.360 --> 00:26:20.430
+Sarah Michaels: It's only as good as your ideas about what's to be coded and all that stuff. But it is a, it's a, it's a, you know, it's a tool that makes certain things easier to notice and see with visualizations.
+
+229
+00:26:21.060 --> 00:26:39.930
+Sarah Michaels: I've never used it. I'm not, therefore, it would it would be not something I'm able to guide us on exactly because I'd have to also learn you know what its capabilities are. We'd have to play around with stuff but So Maggie, you were, you were trying to
+
+230
+00:26:41.190 --> 00:26:50.670
+Sarah Michaels: Play around with it and focus on some of the things we were interested in orienteering and, you know, again, if we go back to thinking about to and Jess.
+
+231
+00:26:53.040 --> 00:26:53.970
+Sarah Michaels: We might
+
+232
+00:26:55.260 --> 00:27:04.140
+Margaret Foster: Sorry, this is like you can have codes that you like click on along the side they do these coding stripe things. So you can look
+
+233
+00:27:05.190 --> 00:27:21.900
+Margaret Foster: And you click on the stripe and then it shows you all the different places where this code is so like less than timing, whatever that means. It's not my code and then when I click on it, I get to see all the different places that it's highlighted, both in the text and also over here.
+
+234
+00:27:23.520 --> 00:27:27.030
+Margaret Foster: Yeah, anyway, so there's there's a whole lot of different stuff that I'm not
+
+235
+00:27:29.040 --> 00:27:31.950
+Margaret Foster: Good at but that might be cool.
+
+236
+00:27:33.000 --> 00:27:36.810
+Sarah Michaels: So I'm going to suggest that we stop recording
+
+237
+00:27:37.500 --> 00:27:43.770
+Sarah Michaels: Because I don't think there's anything. What's just gone on that would be helpful for other people. And I might have said something not so nice.
+
