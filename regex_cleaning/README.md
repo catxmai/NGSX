@@ -1,7 +1,9 @@
 # Regex cleaning
-(Barebone done) Create a GUI to parse from csv transcription and clean up transcript (um ah space in bracket etc.)
+(Barebone done) Create a GUI to parse from csv transcription and clean up transcript. 
 
-To run, download `GUI.zip` and extract all. After that, go to `dist` then  `first_gui` and run  `first_gui.exe`. Might flag as dangerous app, go to `instructions` for more.
+This only supports Windows 10 for the moment. I'm trying to build it from a MacOS virtual machine. Stay tuned.
+
+To run, download `GUI.zip` and extract all. After that, go to `dist` then  `first_gui` and run  `first_gui.exe`. Might flag as dangerous app, go to `instructions` for more help.
 
 Reminder to Cat:
 
