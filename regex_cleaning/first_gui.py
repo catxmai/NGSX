@@ -1,8 +1,6 @@
 import pandas as pd
 # import pywintypes
 # import win32api
-import tkinter
-import csv
 import re
 import tkinter as tk
 from tkinter import filedialog
@@ -90,7 +88,7 @@ def clean_text(command):
         row_id = 3
     if command == "clear_um":
         # regex = "\s(um)\s*?|\s*?(um)\s|\s(uh)\s*?|\s*?(uh)\s|\s(ah)\s*?|\s*?(ah)\s"
-        regex = "\s,?(um|uh|ah)\s*?|\s*?(um|uh|ah),?\s"
+        regex = "\s(,?um|,?uh|,?ah)(?!\w)\s*?|\s*?(?<!\w)(um,?|uh,?|ah,?)\s"
         row_id = 4
     texts = []
     for index,row in df.iterrows():
@@ -147,6 +145,7 @@ def treeview(root, save_mode=False):
         tree = tk.ttk.Treeview(TreeFrame, columns=tree_columns, height=16)
     elif not save_mode:
         tree = tk.ttk.Treeview(TreeFrame, columns=tree_columns, height=16)
+        header_var.set(value=1)
     # scrollbar
     yscroll = tk.ttk.Scrollbar(TreeFrame, orient="vertical", command=tree.yview)
     yscroll.pack(side='right',fill="y")
@@ -210,18 +209,24 @@ def init_gui():
     file_name_entry.grid(row=1, column=0)
     load_file_button = tk.Button(root, text="Load file view", command=lambda: treeview(root), anchor="w")
     load_file_button.grid(sticky="e", row=2, column=0)
-    clear_brac_button = tk.Button(root, text='Clean square brackets and content inside', command=lambda: clean_text("clear_square_bracket"), anchor="w")
+    clear_brac_button = tk.Button(root, text='Clean square brackets ', command=lambda: clean_text("clear_square_bracket"), anchor="w")
     clear_brac_button.grid(sticky="e", row=3, column=0)
-    um_button = tk.Button(root, text='Clean all standalone um ah uh', command=lambda: clean_text("clear_um"), anchor="w")
+    clear_brac_hover = CreateToolTip(clear_brac_button,
+                                       text="Eg juice [gesture] apple -> juice apple")
+    um_button = tk.Button(root, text='Clean ums', command=lambda: clean_text("clear_um"), anchor="w")
     um_button.grid(sticky="e", row=4, column=0)
-    space_square_button = tk.Button(root, text='Clean spaces inside brackets and surrounding space', command=space_square_bracket,anchor="w")
+    um_hover = CreateToolTip(um_button,text="Clean all um ah uh Eg wood, um, why -> wood,  why")
+    space_square_button = tk.Button(root, text='Square bracket space', command=space_square_bracket,anchor="w")
     space_square_button.grid(sticky="e", row=5, column=0)
+    space_square_hover = CreateToolTip(space_square_button,
+                                       text="Eg penguin [ 2 second pause] -> penguin[2secondpause]")
     save_button = tk.Button(root, text='Save as', command=write_excel, anchor="w")
     save_button.grid(sticky="e", row=6, column=0)
     header_var = tk.IntVar()
     replace_text_var = tk.IntVar()
     header_check = tk.Checkbutton(root,text="Header in Excel File", variable=header_var,command=lambda:treeview(root,save_mode=True))
     header_check.grid(sticky="w", row=6, column=0, padx=20)
+    header_hover = CreateToolTip(header_check, text="Check if you want header in your saved Excel file")
     replace_text_check = tk.Checkbutton(root,text="Replace text", variable=replace_text_var)
     replace_text_check.grid(row=6, column=0, padx=(100, 10))
     restart_button = tk.Button(root, text='Restart', command=restart)
@@ -267,7 +272,7 @@ class CreateToolTip(object):
         self.tw.wm_overrideredirect(True)
         self.tw.wm_geometry("+%d+%d" % (x, y))
         label = tk.Label(self.tw, text=self.text, justify='left',
-                       background='yellow', relief='solid', borderwidth=1,
+                       background='#75b7e0', relief='solid', borderwidth=1,
                        font=("times", "8", "normal"))
         label.pack(ipadx=1)
     def close(self, event=None):
