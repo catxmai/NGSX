@@ -4,15 +4,18 @@ import pandas as pd
 import tkinter
 import csv
 import re
-from tkinter import *
+import tkinter as tk
 from tkinter import filedialog
+from tkinter.ttk import *
 import os
 import xlrd
 
 global FILE_NAME
 global df
 global root
+global TreeFrame
 global header_var, replace_text_var
+global treeIsClicked
 
 
 def import_csv():
@@ -45,9 +48,9 @@ def import_csv():
         # df = xl.parse("Sheet1", index_col=None, header=None)
         # df = pd.read_excel(csv_file_path, 'Sheet1', encoding="cp1252", index_col=None)
     df.columns = ["timestamp", "name", "text"]
-    for index, col in df.iterrows():
-        if re.search(r"ï»¿", str(col["timestamp"])):  # not sure how to fix encoding utf-8 here
-            text = re.sub(r"ï»¿", "", str(col["timestamp"]))
+    for index, row in df.iterrows():
+        if re.search(r"ï»¿", str(row["timestamp"])):  # not sure how to fix encoding utf-8 here
+            text = re.sub(r"ï»¿", "", str(row["timestamp"]))
             df.loc[index]["timestamp"] = text
             break
     # print(df.head())
@@ -80,28 +83,29 @@ def write_excel():
 def clean_text(command):
     global df
     regex = ""
-    row = 0
+    row_id = 0
 
     if command == "clear_square_bracket":
         regex = "(\[.*?\])"
-        row = 2
+        row_id = 3
     if command == "clear_um":
         # regex = "\s(um)\s*?|\s*?(um)\s|\s(uh)\s*?|\s*?(uh)\s|\s(ah)\s*?|\s*?(ah)\s"
-        regex = "\s(um|uh|ah)\s*?|\s*?(um|uh|ah)\s"
-        row = 3
+        regex = "\s,?(um|uh|ah)\s*?|\s*?(um|uh|ah),?\s"
+        row_id = 4
     texts = []
-    for index, col in df.iterrows():
-        text = re.sub(regex, "", col["text"])
+    for index,row in df.iterrows():
+        text = re.sub(regex, "", row["text"])
         texts.append(text)
     df[command] = texts
-    done_message(row, 1, "Cleaned!")
+    done_message(row_id, 1, "Cleaned!")
+    treeview(root)
 
 
 def space_square_bracket():
     global df
 
     texts = []
-    for index, col in df.iterrows():
+    for index,row in df.iterrows():
         # find a sequence of space inside bracket not follow by ']'
         pat1 = re.compile(r"\s+(?=[^\[]*\])")
         # find a sequence of space not follow by a char and delete it out eg spaces between brackets
@@ -109,16 +113,75 @@ def space_square_bracket():
         # case of beginning of line
         pat3 = re.compile(r"^(\[.*?\])\s")
 
-        text = pat2.sub('', pat1.sub('', col['text']))
+        text = pat2.sub('', pat1.sub('', row['text']))
         text = pat3.sub(r'\1', text)
         texts.append(text)
     df["space_square_brackets"] = texts
-    done_message(4,1,"Cleaned!")
+    done_message(5,1,"Cleaned!")
+    treeview(root)
 
 
 def done_message(row, col, text="Done!"):
-    t = tkinter.Label(text=text)
+    t = tk.Label(text=text)
     t.grid(row=row, column=col)
+
+
+def treeview(root, save_mode=False):
+    global df
+    global TreeFrame
+    global treeIsClicked
+
+    if treeIsClicked:
+        TreeFrame.destroy()
+    treeIsClicked = True
+
+    df_columns = list(df.columns)
+    tree_columns = df_columns[1:len(df.columns)]
+    TreeFrame = tk.Frame(root)
+    header = bool(header_var.get())
+    if save_mode and not header:
+        TreeFrame.destroy()
+        TreeFrame = tk.Frame(root)
+        tree = tk.ttk.Treeview(TreeFrame, columns=tree_columns, height=16, show="tree")
+    elif save_mode and header:
+        tree = tk.ttk.Treeview(TreeFrame, columns=tree_columns, height=16)
+    elif not save_mode:
+        tree = tk.ttk.Treeview(TreeFrame, columns=tree_columns, height=16)
+    # scrollbar
+    yscroll = tk.ttk.Scrollbar(TreeFrame, orient="vertical", command=tree.yview)
+    yscroll.pack(side='right',fill="y")
+    xscroll = tk.ttk.Scrollbar(TreeFrame, orient="horizontal", command=tree.xview)
+    xscroll.pack(side='bottom',fill="x")
+    tree.configure(xscrollcommand=xscroll.set,yscrollcommand=yscroll.set)
+
+    # Treeview oddity with not first value ie timestamp
+    #columns
+    tree.column("#0", width=200,minwidth=100,stretch=True)
+    tree.column("#1", width=100,minwidth=100,stretch=True)
+    for i in range(2,len(tree_columns)+1): # timestamp and name is incl
+        tree.column("#"+str(i), width=200,minwidth=300,stretch=True)
+
+    #headers
+    tree.heading("#0", text="timestamp", anchor="w")
+    tree.heading("#1", text="name", anchor="w")
+    for i in range(2, len(tree_columns) + 1):  # timestamp and name is incl
+        tree.column("#" + str(i), width=200, minwidth=300, stretch=True)
+        tree.heading("#" + str(i), text=df_columns[i], anchor="w")
+
+    for index,row in df.iterrows():
+        value_list=[]
+        for heading in tree_columns:
+            value_list.append(row[heading])
+        tree.insert("",'end', text=row["timestamp"],values=value_list)
+
+    tree.pack(fill=tk.BOTH, side="left")
+    TreeFrame.grid(columnspan=10,rowspan=10,sticky="nsew")
+    # TreeFrame.rowconfigure(index=1, minsize=200, weight=1)
+    # update root size
+    # root.update()
+    width = root.winfo_screenwidth()-300
+    height = root.winfo_screenheight()-200
+    root.geometry(f'{width}x{height}')
 
 
 def init_gui():
@@ -126,45 +189,48 @@ def init_gui():
     global df
     global root
     global header_var, replace_text_var
-    root = tkinter.Tk()
+    global treeIsClicked
+    treeIsClicked = False
+    root = tk.Tk()
     root.title("NGSX Clean Transcript")
-    w = 600  # width for the tkinter root
-    h = 300  # height for the tkinter root
+    root_width = 600  # width for the tkinter root
+    root_height = 600  # height for the tkinter root
 
     ws = root.winfo_screenwidth()  # width of the screen
     hs = root.winfo_screenheight()  # height of the screen
-    x = (ws / 4) - (w / 4)
-    y = (hs / 4) - (h / 4)
-    root.geometry('%dx%d+%d+%d' % (w, h, x, y))
+    x = (ws/4) - (root_width/4) # centering
+    y = (hs/4) - (root_height/4) # centering
+    root.geometry('%dx%d+%d+%d' % (root_width, root_height, x, y))
 
-    browse_button = tkinter.Button(root, text='Browse .csv or Excel File', command=import_csv)
+    #buttons
+    browse_button = tk.Button(root, text='Browse .csv or Excel File', command=import_csv)
     browse_button.grid(sticky="w", row=1, column=1)
-    FILE_NAME = tkinter.StringVar()
-    file_name_entry = tkinter.Entry(root, textvariable=FILE_NAME, justify=LEFT, width=50)
+    FILE_NAME = tk.StringVar()
+    file_name_entry = tk.Entry(root, textvariable=FILE_NAME, justify=tk.LEFT, width=50)
     file_name_entry.grid(row=1, column=0)
-    clear_brac_button = tkinter.Button(root, text='Clean square brackets and content inside', command=lambda: clean_text("clear_square_bracket"), anchor="w")
-    clear_brac_button.grid(sticky="e", row=2, column=0)
-    um_button = tkinter.Button(root, text='Clean all standalone um ah uh', command=lambda: clean_text("clear_um"), anchor="w")
-    um_button.grid(sticky="e", row=3, column=0)
-    space_square_button = tkinter.Button(root, text='Clean spaces inside brackets and surrounding space', command=space_square_bracket,anchor="w")
-    space_square_button.grid(sticky="e", row=4, column=0)
-    save_button = tkinter.Button(root, text='Save as', command=write_excel, anchor="w")
-    save_button.grid(sticky="e", row=5, column=0)
-    header_var = tkinter.IntVar()
-    replace_text_var = tkinter.IntVar()
-    header_check = tkinter.Checkbutton(root,text="Header in Excel File", variable=header_var)
-    header_check.grid(sticky="w", row=5, column=0, padx=20)
-    replace_text_check = tkinter.Checkbutton(root,text="Replace text", variable=replace_text_var)
-    replace_text_check.grid(row=5, column=0, padx=(100, 10))
-    restart_button = tkinter.Button(root, text='Restart', command=restart)
-    restart_button.grid(sticky="e", row=6, column=0)
-    close_button = tkinter.Button(root, text='Close', command=root.destroy, anchor="w")
-    close_button.grid(sticky="e", row=7, column=0)
+    load_file_button = tk.Button(root, text="Load file view", command=lambda: treeview(root), anchor="w")
+    load_file_button.grid(sticky="e", row=2, column=0)
+    clear_brac_button = tk.Button(root, text='Clean square brackets and content inside', command=lambda: clean_text("clear_square_bracket"), anchor="w")
+    clear_brac_button.grid(sticky="e", row=3, column=0)
+    um_button = tk.Button(root, text='Clean all standalone um ah uh', command=lambda: clean_text("clear_um"), anchor="w")
+    um_button.grid(sticky="e", row=4, column=0)
+    space_square_button = tk.Button(root, text='Clean spaces inside brackets and surrounding space', command=space_square_bracket,anchor="w")
+    space_square_button.grid(sticky="e", row=5, column=0)
+    save_button = tk.Button(root, text='Save as', command=write_excel, anchor="w")
+    save_button.grid(sticky="e", row=6, column=0)
+    header_var = tk.IntVar()
+    replace_text_var = tk.IntVar()
+    header_check = tk.Checkbutton(root,text="Header in Excel File", variable=header_var,command=lambda:treeview(root,save_mode=True))
+    header_check.grid(sticky="w", row=6, column=0, padx=20)
+    replace_text_check = tk.Checkbutton(root,text="Replace text", variable=replace_text_var)
+    replace_text_check.grid(row=6, column=0, padx=(100, 10))
+    restart_button = tk.Button(root, text='Restart', command=restart)
+    restart_button.grid(sticky="e", row=7, column=0)
+    close_button = tk.Button(root, text='Close', command=root.destroy, anchor="w")
+    close_button.grid(sticky="e", row=8, column=0)
 
-    bottom = tkinter.Frame(root)
-    bottom_label = tkinter.Label(bottom, text="Feature requests to CMai@clarku.edu")
-    bottom_label.pack(side="bottom")
-    bottom.grid(pady=y - 30)
+    bottom_label = tk.Label(root, text="Feature requests to CMai@clarku.edu")
+    bottom_label.place(relx=.5, rely=1, anchor="s")
 
     root.mainloop()
 
@@ -175,13 +241,38 @@ def restart():
 
 
 def popupdialog(message):
-    popup = tkinter.Tk()
+    popup = tk.Tk()
     popup.wm_title("WARNING")
-    label = tkinter.Label(popup, text=message)
+    label = tk.Label(popup, text=message)
     label.pack(side="top", fill="x", pady=10)
-    accept_button = tkinter.Button(popup, text="Okay", command=popup.destroy)
+    accept_button = tk.Button(popup, text="Okay", command=popup.destroy)
     accept_button.pack()
     popup.mainloop()
+
+class CreateToolTip(object):
+    # create a tooltip for a given widget
+    def __init__(self, widget, text='widget info'):
+        self.widget = widget
+        self.text = text
+        self.widget.bind("<Enter>", self.enter)
+        self.widget.bind("<Leave>", self.close)
+    def enter(self, event=None):
+        x = y = 0
+        x, y, cx, cy = self.widget.bbox("insert")
+        x += self.widget.winfo_rootx() + 25
+        y += self.widget.winfo_rooty() + 20
+        # creates a toplevel window
+        self.tw = tk.Toplevel(self.widget)
+        # Leaves only the label and removes the app window
+        self.tw.wm_overrideredirect(True)
+        self.tw.wm_geometry("+%d+%d" % (x, y))
+        label = tk.Label(self.tw, text=self.text, justify='left',
+                       background='yellow', relief='solid', borderwidth=1,
+                       font=("times", "8", "normal"))
+        label.pack(ipadx=1)
+    def close(self, event=None):
+        if self.tw:
+            self.tw.destroy()
 
 
 if __name__ == '__main__':
