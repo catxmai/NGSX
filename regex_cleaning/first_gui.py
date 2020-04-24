@@ -5,10 +5,11 @@ import re
 import tkinter as tk
 from tkinter import filedialog
 from tkinter.ttk import *
+import win32com.client as wincl
 import os
 import xlrd
 
-global FILE_NAME
+global FILE_NAME, FILE_PATH, filename_str
 global df
 global root
 global TreeFrame
@@ -18,7 +19,7 @@ global treeIsClicked
 
 def import_csv():
     global df
-    global FILE_NAME
+    global FILE_NAME, filename_str
     global root
 
     files = [('All Files', '*.*'), ('csv Files', '*.csv'), ('Excel Files', '*.xlsx')]
@@ -36,6 +37,7 @@ def import_csv():
             root.protocol("WM_DELETE_WINDOW", root.destroy)
     name = os.path.basename(csv_file_path.name)
     FILE_NAME.set(name)
+    filename_str = name
     if name.endswith('.csv'):
         df = pd.read_csv(csv_file_path, encoding="utf-8", header=None)
     if name.endswith('.xlsx'):
@@ -184,7 +186,7 @@ def treeview(root, save_mode=False):
 
 
 def init_gui():
-    global FILE_NAME
+    global FILE_NAME, FILE_PATH
     global df
     global root
     global header_var, replace_text_var
@@ -205,7 +207,7 @@ def init_gui():
     browse_button = tk.Button(root, text='Browse .csv or Excel File', command=import_csv)
     browse_button.grid(sticky="w", row=1, column=1)
     FILE_NAME = tk.StringVar()
-    file_name_entry = tk.Entry(root, textvariable=FILE_NAME, justify=tk.LEFT, width=50)
+    file_name_entry = tk.Entry(root, textvariable=FILE_NAME,justify=tk.LEFT, width=50)
     file_name_entry.grid(row=1, column=0)
     load_file_button = tk.Button(root, text="Load file view", command=lambda: treeview(root), anchor="w")
     load_file_button.grid(sticky="e", row=2, column=0)
@@ -229,15 +231,47 @@ def init_gui():
     header_hover = CreateToolTip(header_check, text="Check if you want header in your saved Excel file")
     replace_text_check = tk.Checkbutton(root,text="Replace text", variable=replace_text_var)
     replace_text_check.grid(row=6, column=0, padx=(100, 10))
+    cda_button = tk.Button(root, text="Run this in CDA", command=init_CDA, anchor="w")
+    cda_button.grid(sticky="e", row=7, column=0)
     restart_button = tk.Button(root, text='Restart', command=restart)
-    restart_button.grid(sticky="e", row=7, column=0)
+    restart_button.grid(sticky="e", row=8, column=0)
     close_button = tk.Button(root, text='Close', command=root.destroy, anchor="w")
-    close_button.grid(sticky="e", row=8, column=0)
+    close_button.grid(sticky="e", row=9, column=0)
 
     bottom_label = tk.Label(root, text="Feature requests to CMai@clarku.edu")
     bottom_label.place(relx=.5, rely=1, anchor="s")
 
     root.mainloop()
+
+
+def init_CDA():
+    global df
+    global filename_str
+    try:
+        df
+    except NameError:
+        return
+    cda = tk.Tk()
+    cda.wm_title("NGSX Clean Transcript")
+
+    popupdialog("Before you do this, make sure you've enabled macro in your Excel so you can run CDA. To do this,"
+                "\n open any Excel file, go to File->Options->Trust Center->Settings->Macros->Enable all macros.\n"
+                "You can disable this later if you want.")
+
+    file_label = tk.Label(cda, text=filename_str)
+    file_label.pack(side="top", fill="x", pady=10)
+    cda.geometry("400x600")
+    cda.mainloop()
+
+
+def run_macro():
+    excel_macro = wincl.DispatchEx("Excel.application")
+    excel_path = os.path.expanduser("C:\\Users\\Cat Mai\\Documents\\Work\\NGSX\\Coding\\NGSX\\regex_cleaning\\CDA_Sample.xlsm")
+    workbook = excel_macro.Workbooks.Open(Filename = excel_path)
+    excel_macro.Application.Run("GenerateData0")
+    workbook.SaveAs("C:\\Users\\Cat Mai\\Documents\\Work\\NGSX\\Coding\\NGSX\\regex_cleaning\\CDA_Sampleresult_1.xlsm")
+    excel_macro.Application.Quit()
+    del excel_macro
 
 
 def restart():
